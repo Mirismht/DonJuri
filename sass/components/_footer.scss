@@ -1,0 +1,46 @@
+#footer {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.footer-container {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  &-contact {
+    // padding: 1rem 0;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &-nav {
+    padding: 2rem 0;
+    &-list {
+      padding-bottom: 3rem;
+      font-size: 1.8rem;
+      display: flex;
+      justify-content: space-evenly;
+
+      @include respond(phone) {
+        flex-wrap: wrap;
+      }
+      &-item {
+        list-style: none;
+
+        & a {
+          text-decoration: none;
+          color: $color-white;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+
+  &-copyright {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

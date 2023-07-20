@@ -1,0 +1,64 @@
+$color-primary: #d62828;
+$color-secondary: #f77f00;
+$color-tertiary: #fcbf49;
+$background-image-gradient-1: linear-gradient(
+  to left bottom,
+  #d62828,
+  #e04122,
+  #e9571a,
+  #f16b10,
+  #f77f00
+);
+
+$background-image-gradient-2: linear-gradient(
+  to left bottom,
+  #003049,
+  #1d4964,
+  #356380,
+  #4e7e9e,
+  #669bbc
+);
+
+$background-image-gradient-3: linear-gradient(
+  to right bottom,
+  #d62828,
+  #de3b24,
+  #e54c1e,
+  #eb5c18,
+  #f16b10,
+  #f47810,
+  #f68411,
+  #f89015,
+  #f99c22,
+  #faa82f,
+  #fbb43c,
+  #fcbf49
+);
+///////////
+$color-primary-2: #003049;
+$color-secondary-2: #669bbc;
+$color-tertiary-2: #fdf0d5;
+
+$color-red-light: #c1121f;
+$color-red-dark: #780000;
+
+$color-orange: #ffa448;
+$color-light: #eae2b7;
+$color-dark: #003049;
+
+$color-gray: #999;
+$color-gray-dark: #777;
+$color-varied: #333;
+$color-gray-light: #eaf4f4;
+
+$color-white: #fff;
+$color-black: #000;
+
+//Font
+$default-font-size: 1.6rem;
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem; //the spaces betwin the columns
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;

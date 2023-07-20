@@ -1,0 +1,46 @@
+#ourproducts {
+  padding: 4.8rem 0;
+  text-align: center;
+}
+
+.our-products {
+  margin: 8rem 0;
+
+  @include respond(phone) {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap to the next line if not enough space */
+    justify-content: center; /* Center items horizontally */
+  }
+
+  &-container {
+    // padding: 1rem;
+    &-content {
+      display: grid;
+      justify-items: center;
+      gap: 2rem;
+
+      & p:nth-child(2) {
+        // padding: 0.5rem;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        border-bottom: 1px groove $color-primary;
+        letter-spacing: 0.1rem;
+      }
+
+      & p:nth-child(3) {
+        padding: 2rem;
+        font-size: 1.1rem;
+        text-align: left;
+        letter-spacing: 0.1rem;
+        line-height: 1.9rem;
+
+        @include respond(phone) {
+          padding: 1rem;
+        }
+      }
+    }
+
+    &-icon {
+    }
+  }
+}
