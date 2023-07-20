@@ -334,7 +334,8 @@ body {
 }
 
 .btn-showRecipe {
-  white-space: pre-line;
+  text-align: center;
+  flex-direction: column-reverse;
   justify-content: center;
   display: flex;
 }

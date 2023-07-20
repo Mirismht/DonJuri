@@ -58,3 +58,14 @@ function getCurrentYear() {
   document.getElementById("current-year").textContent = currentYear;
 }
 getCurrentYear();
+
+//to get the translation//
+
+const language = {
+  eng: {
+    hi: "Welcome everyone!",
+  },
+  al: {
+    hi: "Mirese erdhet!",
+  },
+};

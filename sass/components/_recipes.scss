@@ -11,9 +11,10 @@
 }
 
 .btn-showRecipe {
-  display: flex;
   justify-content: center;
-  white-space: pre-line;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
 }
 
 .recipe-container-content {
