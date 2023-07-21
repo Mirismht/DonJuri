@@ -9,6 +9,7 @@
   padding: 1.5rem;
 
   @supports (display: grid) {
+    display: grid;
     @include respond(phone) {
       display: grid;
     }

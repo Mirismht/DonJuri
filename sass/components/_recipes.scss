@@ -41,7 +41,7 @@
     padding: 3rem 0;
     position: relative;
     &-img {
-      width: 250px;
+      width: min(80%, 250px);
       border-radius: 50%;
       object-fit: cover;
       aspect-ratio: 2/2;
@@ -51,7 +51,7 @@
       color: $color-primary;
       text-transform: uppercase;
       background-color: rgba($color-white, 0.7);
-      /* padding-bottom: 2rem; */
+
       font-size: 1.3rem;
       position: absolute;
       top: 50%;
@@ -59,7 +59,7 @@
       transform: translate(-50%, -50%);
       display: inline-block;
       font-weight: 800;
-      padding: 8px 10px;
+      padding: 1px 4px;
       width: max-content;
     }
 
