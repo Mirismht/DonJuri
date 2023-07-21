@@ -27,6 +27,14 @@
     row-gap: 2rem;
   }
 
+  @supports (display: flex) {
+    @include respond(phone) {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+    }
+  }
+
   &-1 {
     text-align: center;
     justify-self: center;
