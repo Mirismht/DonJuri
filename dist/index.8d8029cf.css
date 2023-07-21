@@ -122,17 +122,11 @@ body {
 }
 
 .main-header {
-  background-image: linear-gradient(#0009, #0009), url("hero3.a5efb590.png");
+  background-image: linear-gradient(#0009, #0009), url("hero0.eb81a17a.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
-}
-
-@media only screen and (width <= 37.5em) {
-  .main-header {
-    background-image: linear-gradient(#0009, #0009), url("img-2.7a6119be.jpg");
-  }
 }
 
 .main-header-container {
@@ -291,7 +285,7 @@ body {
 }
 
 #aboutus {
-  background-image: linear-gradient(#0009, #0009), url("img3.002e10de.jpg");
+  background-image: linear-gradient(#0009, #0009), url("tamanna-rumee-nswz6tIpgZk-unsplash-min.eed643d6.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -434,7 +428,7 @@ body {
 }
 
 #contactus {
-  background-image: linear-gradient(#0009, #0009), url("img8.06cd3e57.jpg");
+  background-image: linear-gradient(#0009, #0009), url("chinh-le-duc-vuDXJ60mJOA-unsplash-min.cb48568e.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
