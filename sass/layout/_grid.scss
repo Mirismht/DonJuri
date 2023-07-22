@@ -2,6 +2,10 @@
   display: grid;
   column-gap: 6.4rem;
   padding: 0 3.2rem;
+
+  @include respond(phone) {
+    column-gap: 3rem;
+  }
 }
 
 .grid {

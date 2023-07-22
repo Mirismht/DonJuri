@@ -10,9 +10,9 @@ html {
   overflow-x: hidden;
 }
 
-@media only screen and (width <= 56.25em) {
+@media only screen and (width >= 112.5em) {
   html {
-    font-size: 50%;
+    font-size: 75%;
   }
 }
 
@@ -22,9 +22,15 @@ html {
   }
 }
 
-@media only screen and (width >= 112.5em) {
+@media only screen and (width <= 56.25em) {
   html {
-    font-size: 75%;
+    font-size: 50%;
+  }
+}
+
+@media only screen and (width <= 37.5em) {
+  html {
+    font-size: 37.5%;
   }
 }
 
@@ -39,37 +45,6 @@ body {
   body {
     padding: 0;
   }
-}
-
-.container {
-  column-gap: 6.4rem;
-  padding: 0 3.2rem;
-  display: grid;
-}
-
-.grid {
-  gap: 9.6rem 3rem;
-  display: grid;
-}
-
-.grid:not(:last-child) {
-  margin-bottom: 2rem;
-}
-
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--4-cols {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
 }
 
 .heading1 {
@@ -121,6 +96,43 @@ body {
   font-size: 5rem;
 }
 
+.container {
+  column-gap: 6.4rem;
+  padding: 0 3.2rem;
+  display: grid;
+}
+
+@media only screen and (width <= 37.5em) {
+  .container {
+    column-gap: 3rem;
+  }
+}
+
+.grid {
+  gap: 9.6rem 3rem;
+  display: grid;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .main-header {
   background-image: linear-gradient(#0009, #0009), url("hero0.eb81a17a.jpg");
   background-position: center;
@@ -159,7 +171,7 @@ body {
 }
 
 .main-header-img {
-  width: 100px;
+  width: max(50%, 100px);
   height: 70px;
 }
 
@@ -216,24 +228,22 @@ body {
 
 .hero-section-text {
   color: #fff;
-  padding-top: 8rem;
-  font-size: 2rem;
+  padding-top: 3rem;
   position: absolute;
-  top: 65%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 @media only screen and (width <= 37.5em) {
   .hero-section-text {
-    padding-top: 0;
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 }
 
 .dough {
   filter: invert();
-  width: 10rem;
+  width: 9rem;
 }
 
 .caracter1 {

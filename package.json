@@ -6,7 +6,8 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "sass": "sass --watch scss:css"
+    "sass": "sass --watch scss:css",
+    "compile:sass": "sass sass/main.scss css/style.css -w"
   },
   "author": "Mirisa Bejko",
   "license": "ISC",
