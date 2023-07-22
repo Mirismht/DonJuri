@@ -16,6 +16,11 @@
   &:not(:last-child) {
     margin-bottom: 2rem;
   }
+
+  @include respond(phone) {
+    column-gap: 2rem;
+    row-gap: 4rem;
+  }
 }
 
 .grid--2-cols {

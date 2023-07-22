@@ -25,11 +25,6 @@ html {
     //width < 900
     font-size: 50%; //1rem= 8px, 8/16=50%
   }
-
-  @include respond(phone) {
-    //width < 600
-    font-size: 37.5%; //1rem= 6px, 6/16=50%
-  }
 }
 
 body {

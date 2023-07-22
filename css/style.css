@@ -49,11 +49,6 @@ html {
     font-size: 50%;
   }
 }
-@media only screen and (max-width: 37.5em) {
-  html {
-    font-size: 37.5%;
-  }
-}
 
 body {
   box-sizing: border-box;
@@ -71,6 +66,12 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
+  font-size: clamp(2.49rem, 2.03rem + 2.31vw, 3.82rem);
+}
+@media only screen and (max-width: 37.5em) {
+  .heading1 {
+    font-size: 2rem;
+  }
 }
 
 .heading2 {
@@ -133,6 +134,12 @@ body {
 .grid:not(:last-child) {
   margin-bottom: 2rem;
 }
+@media only screen and (max-width: 37.5em) {
+  .grid {
+    column-gap: 2rem;
+    row-gap: 4rem;
+  }
+}
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
@@ -157,6 +164,11 @@ body {
   background-size: cover;
   height: 90vh;
 }
+@media only screen and (max-width: 37.5em) {
+  .main-header {
+    height: 70vh;
+  }
+}
 .main-header-container {
   display: flex;
   text-align: center;
@@ -164,13 +176,13 @@ body {
   padding: 3rem 0;
   align-items: center;
 }
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 56.25em) {
   .main-header-container {
     flex-direction: column;
   }
 }
 @supports (display: flex) {
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .main-header-container {
       display: flex;
       flex-direction: column;
@@ -183,7 +195,6 @@ body {
   height: 4rem;
 }
 .main-header-img {
-  width: max(50%, 100px);
   height: 70px;
 }
 .main-header-logo {
@@ -215,6 +226,11 @@ body {
   list-style: none;
   padding: 1rem 2rem;
 }
+@media only screen and (max-width: 37.5em) {
+  .main-header-navigation-element {
+    padding: 1.5rem;
+  }
+}
 .main-header-navigation-element:hover {
   transform: translateY(-2px);
 }
@@ -225,12 +241,11 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .main-header-navigation-link {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 }
 
 .hero-section-text {
-  padding-top: 3rem;
   color: #fff;
   position: absolute;
   top: 50%;
@@ -275,7 +290,7 @@ body {
 .our-products-container-content p:nth-child(2) {
   font-size: 1.5rem;
   text-transform: uppercase;
-  border-bottom: 1px groove #d62828;
+  border-bottom: 0.2rem groove #d62828;
   letter-spacing: 0.1rem;
 }
 .our-products-container-content p:nth-child(3) {
@@ -357,7 +372,7 @@ body {
   }
 }
 @supports (display: flex) {
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .recipe-container-content {
       display: flex;
       flex-direction: column;
@@ -381,15 +396,13 @@ body {
   color: #d62828;
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.7);
-  font-size: 1.3rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: inline-block;
   font-weight: 800;
-  padding: 1px 4px;
-  width: max-content;
+  padding: 0.3rem;
 }
 .recipe-container-content-1-ingredients {
   align-self: center;
