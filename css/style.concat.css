@@ -401,11 +401,6 @@ body {
   object-fit: cover;
   aspect-ratio: 2/2;
 }
-@media only screen and (max-width: 37.5em) {
-  .recipe-container-content-1-img {
-    width: 180px;
-  }
-}
 .recipe-container-content-1-title {
   color: #d62828;
   text-transform: uppercase;

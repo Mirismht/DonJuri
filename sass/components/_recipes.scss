@@ -41,10 +41,14 @@
     padding: 3rem 0;
     position: relative;
     &-img {
-      width: min(80%, 250px);
+      width: 250px;
       border-radius: 50%;
       object-fit: cover;
       aspect-ratio: 2/2;
+
+      @include respond(phone) {
+        width: 180px;
+      }
     }
 
     &-title {

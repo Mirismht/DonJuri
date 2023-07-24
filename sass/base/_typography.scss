@@ -4,7 +4,7 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
-  font-size: clamp(2.49rem, calc(2.03rem + 2.31vw), 3.82rem);
+  font-size: clamp(2.49rem, 2.03rem + 0.143rem, 3.82rem);
 
   @include respond(phone) {
     font-size: 2rem;
