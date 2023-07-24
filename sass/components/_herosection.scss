@@ -7,9 +7,9 @@
   background-size: cover;
   height: 90vh;
 
-  @include respond(phone) {
-    height: 70vh;
-  }
+  // @include respond(phone) {
+  //   height: 70vh;
+  // }
 
   &-container {
     display: flex;

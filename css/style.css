@@ -136,9 +136,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh; }
-  @media only screen and (max-width: 37.5em) {
-    .main-header {
-      height: 70vh; } }
   .main-header-container {
     display: flex;
     text-align: center;
