@@ -7,10 +7,6 @@
   background-size: cover;
   height: 90vh;
 
-  // @include respond(phone) {
-  //   height: 70vh;
-  // }
-
   &-container {
     display: flex;
     text-align: center;
@@ -75,7 +71,7 @@
       padding: 1rem 2rem;
 
       @include respond(phone) {
-        padding: 1.5rem;
+        // padding: 1.5rem;
       }
       &:hover {
         transform: translateY(-2px);
@@ -106,6 +102,7 @@
 
     @include respond(phone) {
       font-size: 1.4rem;
+      padding-top: 10rem;
     }
   }
 }
