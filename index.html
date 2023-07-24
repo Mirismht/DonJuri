@@ -17,10 +17,13 @@
     />
     <link rel="stylesheet" href="./sass/main.scss" type="text/css" />
     <script src="./script.js" defer></script>
+    <!-- for the hera section image lazy loading -->
+
     <title>Document</title>
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header lazy-bg" data-bg="./img/hero0.jpg">
+      <div class="overlay"></div>
       <div class="main-header-container">
         <div class="main-header-logo">
           <a class="main-header-link" href="#contactus"
@@ -456,5 +459,6 @@
         </div>
       </section>
     </main>
+    <script src="path/to/lazyload.min.js" defer></script>
   </body>
 </html>

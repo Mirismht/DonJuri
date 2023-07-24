@@ -69,3 +69,28 @@ const language = {
     hi: "Mirese erdhet!",
   },
 };
+
+////for lazy loading herosection img
+
+document.addEventListener("DOMContentLoaded", function () {
+  const lazyBgElements = document.querySelectorAll(".lazy-bg");
+
+  const lazyLoad = (element) => {
+    if (element.getAttribute("data-bg")) {
+      element.style.backgroundImage = `url(${element.getAttribute("data-bg")})`;
+      observer.unobserve(element);
+    }
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        lazyLoad(entry.target);
+      }
+    });
+  });
+
+  lazyBgElements.forEach((element) => {
+    observer.observe(element);
+  });
+});
