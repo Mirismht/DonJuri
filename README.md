@@ -1,6 +1,6 @@
 # DonJuri
 
-![DonJuri Screenshot](insert_screenshot_or_demo_image_url_here)
+![DonJuri Screenshot](./img/donjuri-img.png)
 
 ## Project Description
 
@@ -28,6 +28,7 @@ Explore the live demo of DonJuri: [Live Demo](https://donjuri.netlify.app/)
 ## Usage
 
 Users can interact with DonJuri to access information about the product and get in touch with the client. Key features include:
+
 - Exploring the product description and its different sections.
 - Viewing the product gallery.
 - Accessing a recipe associated with the product.
@@ -36,6 +37,7 @@ Users can interact with DonJuri to access information about the product and get 
 ## Technologies Used
 
 DonJuri was developed using the following skills and technologies:
+
 - HTML
 - CSS
 - SASS
@@ -44,10 +46,12 @@ DonJuri was developed using the following skills and technologies:
 ## Contact Information
 
 If you have any inquiries or feedback, feel free to contact me:
+
 - Email: your.email@example.com
 
 ## Acknowledgments
 
 I would like to acknowledge the following resources and tools that contributed to the development of DonJuri:
+
 - [Font Awesome](https://fontawesome.com/)
 - [Netlify](https://www.netlify.com/)
