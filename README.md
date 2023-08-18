@@ -47,7 +47,7 @@ DonJuri was developed using the following skills and technologies:
 
 If you have any inquiries or feedback, feel free to contact me:
 
-- Email: your.email@example.com
+- Email: mirisabejko@outlook.com
 
 ## Acknowledgments
 
